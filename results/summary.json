@@ -1,0 +1,54 @@
+{
+  "audit": {
+    "rows": 1000,
+    "columns": 9,
+    "missing_cells": 120,
+    "duplicate_ids": 0,
+    "duplicate_model_records": 0,
+    "sha256": "9fc2f147a79ee7edec9cc19e70c35d460df713f942b4f1ea9197ba7c2ad6a543"
+  },
+  "development_rows": 800,
+  "test_rows": 200,
+  "selected_model": "Ridge alpha=10",
+  "test_metrics": {
+    "MAE": 8.56836519403943,
+    "RMSE": 11.136125872069572,
+    "R2": 0.7233247743766933,
+    "Within_10_min_percent": 66.5
+  },
+  "baseline_metrics": {
+    "MAE": 17.465,
+    "RMSE": 21.17864490471475,
+    "R2": -0.0006872076362649526,
+    "Within_10_min_percent": 31.5
+  },
+  "train_metrics": {
+    "MAE": 9.202819325516058,
+    "RMSE": 12.783530230676524,
+    "R2": 0.6703430622079879,
+    "Within_10_min_percent": 63.0
+  },
+  "mae_improvement_percent": 50.93979276244242,
+  "features": [
+    "Distance_km",
+    "Courier_Experience_yrs",
+    "Weather",
+    "Traffic_Level",
+    "Time_of_Day",
+    "Vehicle_Type"
+  ],
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.4.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "python": "3.12.14",
+  "example_prediction": 37.624716904834514,
+  "example_actual": 32
+}

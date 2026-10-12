@@ -1,0 +1,8 @@
+{
+  "Distance_km": {"observed_range": [0.59,19.99], "unit":"km"},
+  "Courier_Experience_yrs": {"observed_range": [0,9], "unit":"years"},
+  "Weather": {"allowed": ["Clear","Rainy","Snowy","Foggy","Windy"]},
+  "Traffic_Level": {"allowed": ["Low","Medium","High"]},
+  "Time_of_Day": {"allowed": ["Morning","Afternoon","Evening","Night"]},
+  "Vehicle_Type": {"allowed": ["Bike","Scooter","Car"]}
+}

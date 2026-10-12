@@ -1,0 +1,36 @@
+model,fold,MAE
+Median baseline,1,16.91875
+Median baseline,2,17.85625
+Median baseline,3,18.4125
+Median baseline,4,18.05625
+Median baseline,5,18.3375
+Ridge alpha=1,1,8.996335323661086
+Ridge alpha=1,2,8.903070154070276
+Ridge alpha=1,3,10.137212841403958
+Ridge alpha=1,4,9.18618191565488
+Ridge alpha=1,5,9.761672972031295
+Ridge alpha=10,1,8.996710565369606
+Ridge alpha=10,2,8.873704967595907
+Ridge alpha=10,3,10.053567438393246
+Ridge alpha=10,4,9.193289947835174
+Ridge alpha=10,5,9.760532030271154
+Random forest leaf=2,1,10.333458701975108
+Random forest leaf=2,2,9.2909119724026
+Random forest leaf=2,3,11.205152200577198
+Random forest leaf=2,4,10.075897023809528
+Random forest leaf=2,5,10.131053832972583
+Random forest leaf=5,1,10.090130700931251
+Random forest leaf=5,2,9.134607306537953
+Random forest leaf=5,3,10.996917519090612
+Random forest leaf=5,4,10.056271919655233
+Random forest leaf=5,5,10.154235816853289
+Boosting leaves=7,1,9.758050022136587
+Boosting leaves=7,2,9.404160704985154
+Boosting leaves=7,3,10.85817328530132
+Boosting leaves=7,4,10.157916786833033
+Boosting leaves=7,5,10.231781776699242
+Boosting leaves=15,1,10.227417234830934
+Boosting leaves=15,2,9.777324677439772
+Boosting leaves=15,3,11.508321686400677
+Boosting leaves=15,4,10.324979089122795
+Boosting leaves=15,5,10.610622909287107
